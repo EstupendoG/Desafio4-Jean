@@ -178,9 +178,9 @@ a{
                 font-size: 1.3rem;
             }
 
-            footer.YLPfooter .YLinfo .FOTinfo-title{
-                font-size: 1.5rem;
-            }
+        footer.YLPfooter .FOTinfo-title{
+            font-size: 1.5rem;
+        }
 
         footer.YLPfooter .FOTinfo-text{
             margin-bottom: 5px;
@@ -221,6 +221,59 @@ a{
         footer.YLPfooter .bi{
             font-style: normal;
         }
+
+            footer.YLPfooter .FOTform-input{
+                background-color: rgba(255, 255, 255, 0.05);
+                width: 100%;
+                padding: 7px 10px;
+
+                color: var(--branco);
+                font-size: .8rem;
+                font-weight: 300;
+
+                outline: 1px solid transparent;
+                border: none;
+                border-radius: 7px;
+
+                transition: all 250ms;
+            }
+                footer.YLPfooter .FOTform-input:focus{
+                    background-color: rgba(255, 255, 255, 0.1);
+
+                    outline: 1px solid var(--branco);
+                }
+
+            footer.YLPfooter .FOTform-submit{
+                background-color: rgba(255, 255, 255, 0.05);
+                width: 100%;
+                padding: 5px 0px;
+
+                color: var(--branco);
+                font-size: .8rem;
+                font-weight: 100;
+
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                border-radius: 7px;
+
+                transition: all 150ms , transform 250ms;
+            }
+
+                footer.YLPfooter .FOTform-submit:hover{
+                    background-color: rgba(255, 255, 255, 0.05);
+                    border: 1px solid var(--YLrosa);
+
+                    color: var(--YLrosa);
+                    font-weight: 500;
+
+                    transform: scale(1.05);
+                }
+
+                footer.YLPfooter .FOTform-submit:active{
+                    background-color: rgba(255, 255, 255, 0.05);
+                    border: 1px solid var(--YLamarelo);
+
+                    color: var(--YLamarelo);
+                }
 
 /* 
     .:: ALGUNS PADRÕES ::.
@@ -318,6 +371,8 @@ a{
                 footer.YLPfooter .FOTinfo-yList .FOTinfo-text{
                     font-size: .8rem;
                 }
+
+        
 
     /* 
         .:: ALGUNS PADRÕES ::.
